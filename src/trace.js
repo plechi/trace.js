@@ -171,7 +171,7 @@
     
     //save push function
     _err.p=Array.prototype.push;
-    //overwrite push to send errors imedeatly
+    //overwrite push to send errors immedeatly
     _err.push=function(e){
         _err.p(e);
         console.log(_err);
