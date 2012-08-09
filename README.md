@@ -5,7 +5,7 @@ Trace.js is a simple tool to report client sided javascript errors.
 ##Usage##
 It's very simple to use trace.js.
 
-###Client side###
+###Client - side###
 Copy the code of `snippet.js` into a script tag in your HTML file (also jQuery is needed for AJAX Request):
 ```html
 <html>
@@ -39,7 +39,7 @@ Copy the code of `snippet.js` into a script tag in your HTML file (also jQuery i
     </body>
 </html>
 ```
-Now all errors were POSTed to the tracer.php script.
+Now all errors were sent to the `tracer.php` script.
 
 You can modify this in `trace.js`:
 
@@ -49,7 +49,7 @@ var options={
 };
 ```
 
-###Server-side###
+###Server - side###
 
 The script sends all errors to the server with a POST request and following parameters:
  - `m` - the error message
