@@ -39,9 +39,9 @@ Copy the code of `snippet.js` into a script tag in your HTML file (also jQuery i
     </body>
 </html>
 ```
-Now all errors were sent to the `tracer.php` script.
 
-You can modify this in `trace.js`:
+
+You can modify the URL of the log-server in `trace.js`:
 
 ```javascript
 var options={
